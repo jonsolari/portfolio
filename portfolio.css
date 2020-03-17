@@ -352,7 +352,10 @@ html {
 body {
   background-color: #b5b4b6;
   overflow-x: hidden;
-  margin: 0;
+  margin: 0 25%;
+  width: 50%;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
 }
 
 .red {
@@ -425,9 +428,18 @@ p {
   font-size: 2rem;
 }
 
+.photo {
+  width: 45%;
+  margin: auto;
+}
+
 img {
   max-width: 100%;
-  height: auto;
+  margin: 1rem auto;
+}
+
+.smaller {
+  margin-left: 15%;
 }
 
 .bold {
@@ -435,6 +447,7 @@ img {
 }
 
 .first {
+  margin: 3rem auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -445,7 +458,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 5rem;
+  padding-left: 1rem;
 }
 
 .second {
@@ -456,11 +469,12 @@ img {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  margin: 3rem auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #929292;
-  padding-right: 5rem;
+  padding-right: 1rem;
 }
 
 .third {
@@ -471,10 +485,11 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin: 3rem auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 5rem;
+  padding-left: 1rem;
   border-bottom: 1px solid grey;
 }
 
@@ -503,13 +518,6 @@ img {
 
 .right {
   text-align: right;
-}
-
-.photo {
-  width: 40%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  margin: auto;
 }
 
 .footer {
