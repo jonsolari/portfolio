@@ -1,0 +1,151 @@
+* {
+    font-size: 62.5%;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #b5b4b6;
+    overflow-x: hidden;
+    margin: 0
+}
+
+.red{
+    color: #e73e33;
+}
+
+.yellow{
+    color: #f5b333;
+}
+
+.green{
+    color: #4c9d78;
+    margin-left: -2.5rem;
+}
+
+.blue{
+    color: #005abe;
+    margin-left: -2.5rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+    h1 {
+        font-family: 'Rationale';
+        font-size: 15rem;
+        margin: 0 auto;    
+        
+    }
+    
+    h2 {
+        margin: -5rem auto;
+        padding-left: 13rem;
+        font-family: 'Michroma';
+        font-size: 5rem;
+        letter-spacing: 12px;         
+    }
+}
+
+.intro{
+    margin-top: 13rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-left: 10rem;
+    background-color: #929292;
+    
+    
+
+    h3{
+        font-family: 'Sorts Mill Goudy';
+        font-size: 2rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-right: 10%;
+    }
+}
+
+h3{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.second{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #929292;
+}
+
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: center;
+    
+    h3{
+        font-family: 'Sorts Mill Goudy';
+    }
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.photo{
+    width: 40%;
+    flex-shrink: 1;
+    
+    img{
+        // padding: 5%;
+        float: left;
+        // border: solid brown 2px;
+        // max-width: 100%
+    }
+}
+
+
+/* 
+    Rationale - PS1 font kinda
+    Della Respira - New Yorker
+    Michroma - InSoc / old CD text font
+
+    PS1 Colors:
+    Red: #e73e33
+    Yellow: #f5b333
+    Green: #4c9d78
+    Blue: #005abe
+*/
