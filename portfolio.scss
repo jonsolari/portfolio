@@ -349,6 +349,11 @@
     display: none;
   }
 
+
+$tablet: 900px;
+$phone: 550px;
+
+
 * {
     font-size: 62.5%;
 }
@@ -360,10 +365,14 @@ html{
 body{
     background-color: #b5b4b6;
     overflow-x: hidden;
-    margin: 0 25%;
-    width: 50%;
+    margin: 0 auto;
+    width: 60%;
     border-left: 1px solid grey;
     border-right: 1px solid grey;
+    @media (max-width: $tablet) {
+      // background-color: red
+      width: 100%;
+    }
 }
 
 .red{
@@ -376,12 +385,18 @@ body{
 
 .green{
     color: #4c9d78;
-    margin-left: -2.5rem;
+    margin-left: -2.1rem;
+    @media (max-width: $phone) {
+      margin-left: -1rem;
+    }
 }
 
 .blue{
     color: #005abe;
-    margin-left: -2.5rem;
+    margin-left: -2.1rem;
+    @media (max-width: $phone) {
+      margin-left: -1rem;
+    }
 }
 
 
@@ -393,17 +408,25 @@ body{
     
     h1 {
         font-family: 'Rationale';
-        font-size: 15rem;
+        font-size: 10rem;
         margin: 0 auto;    
-        
+        @media (max-width: $phone) {
+          font-size: 8rem;
+        }
     }
     
     h2 {
-        margin: -5rem auto;
+        margin: -3.4rem auto;
         padding-left: 13rem;
         font-family: 'Michroma';
-        font-size: 5rem;
+        font-size: 3.4rem;
         letter-spacing: 12px;         
+        @media (max-width: $phone) {
+          padding-left: 3.5rem;
+          font-size: 2.6rem;
+          margin: -2.5rem auto;
+          letter-spacing: 5px;
+        }
     }
 }
 
@@ -411,10 +434,9 @@ body{
     margin-top: 10rem;
     margin-left: -1rem;
     margin-right: -1rem;
+    margin-bottom: 3rem;
     padding-left: 10rem;
     background-color: #929292;
-    
-    
 
     h3{
         font-family: 'Sorts Mill Goudy';
@@ -425,6 +447,15 @@ body{
         margin-top: 0;
         margin-bottom: 0;
     }
+
+    @media (max-width: $tablet) {
+      padding-left: 5rem;
+    }
+
+    @media (max-width: $phone) {
+      padding-left: 2rem;
+      padding-right: 1rem;
+    }    
 }
 
 h3{
@@ -435,15 +466,45 @@ p{
     font-size: 2rem;
 }
 
+.desc{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  width: 60%;
+  align-self: flex-start;
+  
+  h3{
+      font-family: 'Sorts Mill Goudy';
+  }
+  @media (max-width: $phone) {
+    width: 90%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+  }
+}
+
 .photo{
-    width: 45%;
-    margin: auto;
+    width: 35%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    @media (max-width: $phone) {
+      width: 100%;
+      margin: auto;
+      // margin-left: 8.5rem;
+    }
 }
 
 img{
     // background-size: cover;
     max-width: 100%;
     margin: 1rem auto;
+    @media (max-width: $phone) {
+      margin-top: 3rem;
+      
+    }
     
 }
 
@@ -456,42 +517,46 @@ img{
 }
 
 .first{
-    margin: 3rem auto;   
+    margin: auto;   
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-left: 1rem;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    @media (max-width: $phone) {
+      flex-direction: column;
+      flex-direction: column-reverse;
+      padding: 0 auto;
+    }
 }
 
 .second{
     display: flex;
     flex-direction: row-reverse;
-    margin: 3rem auto;   
+    margin: auto;   
     justify-content: space-between;
     background-color: #929292;
-    padding-right: 1rem;
+    padding-right: 2rem;
+    @media (max-width: $phone) {
+      flex-direction: column;
+      flex-direction: column-reverse;
+      padding: 0 auto;
+    }
 }
 
 .third{
     display: flex;
     flex-direction: row;
-    margin: 3rem auto;   
+    margin: auto;   
     justify-content: space-between;
-    padding-left: 1rem;
+    padding-left: 2rem;
     border-bottom: 1px solid grey;
-}
-
-.desc{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    margin: auto;
-    width: 50%;
-    
-    h3{
-        font-family: 'Sorts Mill Goudy';
+    @media (max-width: $phone) {
+      flex-direction: column;
+      flex-direction: column-reverse;
     }
 }
+
+
 
 .left{
     text-align: left;
@@ -499,6 +564,9 @@ img{
 
 .right{
     text-align: right;
+    @media (max-width: $phone) {
+      text-align: center;
+    }
 }
 
 
