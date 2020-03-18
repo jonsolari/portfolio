@@ -404,7 +404,6 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
-    margin-bottom: 1rem;
     
     h1 {
         font-family: 'Rationale';
@@ -431,7 +430,7 @@ body{
 }
 
 .intro{
-    margin-top: 10rem;
+    margin-top: 8rem;
     margin-left: -1rem;
     margin-right: -1rem;
     margin-bottom: 3rem;
@@ -441,7 +440,7 @@ body{
     h3{
         font-family: 'Sorts Mill Goudy';
         font-size: 2rem;
-        padding-top: 2%;
+        padding-top: 3%;
         padding-bottom: 2%;
         margin-right: 10%;
         margin-top: 0;
@@ -453,10 +452,10 @@ body{
     }
 
     @media (max-width: $phone) {
-      padding-left: 2rem;
-      padding-right: 1rem;
+      text-align: center;
     }    
 }
+
 
 h3{
     font-size: 3.5rem;
@@ -478,8 +477,7 @@ p{
   }
   @media (max-width: $phone) {
     width: 90%;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 0 auto;
     text-align: center;
   }
 }
@@ -508,9 +506,6 @@ img{
     
 }
 
-.smaller{
-    margin-left: 15%;
-}
 
 .bold{
     font-weight: bold;
@@ -539,7 +534,8 @@ img{
     @media (max-width: $phone) {
       flex-direction: column;
       flex-direction: column-reverse;
-      padding: 0 auto;
+      padding-right: 0;
+      
     }
 }
 
@@ -549,7 +545,7 @@ img{
     margin: auto;   
     justify-content: space-between;
     padding-left: 2rem;
-    border-bottom: 1px solid grey;
+    
     @media (max-width: $phone) {
       flex-direction: column;
       flex-direction: column-reverse;
@@ -569,7 +565,30 @@ img{
     }
 }
 
-
+.contact{
+  background-color: #929292;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+   
+  h3{
+    font-family: 'Sorts Mill Goudy';
+    margin: 2rem auto;
+    
+  }
+  a{
+    font-family: 'Sorts Mill Goudy';
+    color: black;
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+  p{
+    font-family: 'Sorts Mill Goudy';
+    font-size: 2rem;
+    margin: 0 auto; 
+  }
+}
 
 .footer{
     text-align: center;
