@@ -358,7 +358,7 @@ body {
   border-right: 1px solid grey;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 908px) {
   body {
     width: 100%;
   }
@@ -377,7 +377,7 @@ body {
   margin-left: -2.1rem;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   .green {
     margin-left: -1rem;
   }
@@ -388,7 +388,7 @@ body {
   margin-left: -2.1rem;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   .blue {
     margin-left: -1rem;
   }
@@ -411,7 +411,7 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   .header h1 {
     font-size: 8rem;
   }
@@ -425,7 +425,7 @@ body {
   letter-spacing: 12px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   .header h2 {
     padding-left: 3.5rem;
     font-size: 2.6rem;
@@ -453,13 +453,13 @@ body {
   margin-bottom: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 908px) {
   .intro {
     padding-left: 5rem;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   .intro {
     text-align: center;
   }
@@ -493,7 +493,7 @@ p {
   font-family: 'Sorts Mill Goudy';
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   .desc {
     width: 90%;
     margin: 0 auto;
@@ -515,7 +515,7 @@ p {
       justify-content: space-around;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   .photo {
     width: 100%;
     margin: auto;
@@ -527,7 +527,7 @@ img {
   margin: 1rem auto;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   img {
     margin-top: 3rem;
   }
@@ -552,7 +552,7 @@ img {
   padding-left: 2rem;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   .first {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -579,7 +579,7 @@ img {
   padding-right: 2rem;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   .second {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -605,7 +605,7 @@ img {
   padding-left: 2rem;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   .third {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -623,7 +623,7 @@ img {
   text-align: right;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
   .right {
     text-align: center;
   }
