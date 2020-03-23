@@ -443,6 +443,12 @@ body {
   background-color: #929292;
 }
 
+.intro a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: darkblue;
+}
+
 .intro h3 {
   font-family: 'Sorts Mill Goudy';
   font-size: 2rem;
@@ -471,6 +477,16 @@ h3 {
 
 p {
   font-size: 2rem;
+}
+
+ul {
+  margin-bottom: 2rem;
+  list-style-type: square;
+}
+
+li {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
 }
 
 a {
@@ -509,7 +525,7 @@ a {
   .desc {
     width: 90%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
 }
 

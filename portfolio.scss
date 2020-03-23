@@ -437,6 +437,12 @@ body{
     padding-left: 10rem;
     background-color: #929292;
 
+    a{
+      font-size: 2rem;
+      text-decoration: none;
+      color: darkblue;
+    }
+
     h3{
         font-family: 'Sorts Mill Goudy';
         font-size: 2rem;
@@ -445,6 +451,7 @@ body{
         margin-right: 10%;
         margin-top: 0;
         margin-bottom: 0;
+        
     }
 
     @media (max-width: $tablet) {
@@ -463,6 +470,16 @@ h3{
 
 p{
     font-size: 2rem;
+}
+
+ul{
+  margin-bottom: 2rem;
+  list-style-type: square;
+}
+
+li{
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
 }
 
 a{
@@ -486,11 +503,12 @@ a{
   
   h3{
       font-family: 'Sorts Mill Goudy';
+      
   }
   @media (max-width: $phone) {
     width: 90%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
 }
 
