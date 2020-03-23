@@ -658,7 +658,7 @@ img {
 
 @media (max-width: 561px) {
   .right {
-    text-align: center;
+    text-align: left;
   }
 }
 
