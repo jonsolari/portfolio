@@ -465,6 +465,18 @@ p{
     font-size: 2rem;
 }
 
+a{
+  text-decoration: none;
+}
+
+.viewcode{
+  color: black;
+  font-size: 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+}
+
 .desc{
   display: flex;
   flex-direction: column;
@@ -486,17 +498,18 @@ p{
     width: 35%;
     margin: 3rem auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: baseline;
     @media (max-width: $phone) {
-      width: 100%;
+      // width: 100%;
       margin: auto;
       // margin-left: 8.5rem;
     }
 }
 
 img{
-    // background-size: cover;
+    display: flex;
+    align-self: flex-start;
     max-width: 100%;
     margin: 1rem auto;
     @media (max-width: $phone) {
