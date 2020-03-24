@@ -527,6 +527,9 @@ a {
     margin: 0 auto;
     text-align: left;
   }
+  .desc h3 {
+    text-align: center;
+  }
 }
 
 .photo {
