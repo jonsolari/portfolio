@@ -520,7 +520,7 @@ a{
     margin: 3rem auto;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
     @media (max-width: $phone) {
       // width: 100%;
       margin: auto;
@@ -530,7 +530,7 @@ a{
 
 img{
     display: flex;
-    align-self: flex-start;
+    align-self: center;
     max-width: 100%;
     margin: 1rem auto;
     @media (max-width: $phone) {
