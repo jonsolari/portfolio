@@ -665,6 +665,15 @@ img {
   }
 }
 
+.bullet {
+  list-style-position: inside;
+}
+
+.glow {
+  -webkit-box-shadow: 5px red;
+          box-shadow: 5px red;
+}
+
 .contact {
   background-color: #929292;
   border-bottom: 1px solid grey;
