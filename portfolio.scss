@@ -540,7 +540,6 @@ img{
     
 }
 
-
 .bold{
     font-weight: bold;
 }
@@ -579,6 +578,7 @@ img{
     flex-direction: row;
     margin: auto;   
     justify-content: space-between;
+    align-items: center;
     padding-left: 2rem;
     
     @media (max-width: $phone) {
